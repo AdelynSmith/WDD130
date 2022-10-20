@@ -1,0 +1,15 @@
+article{
+    background-color: rgb(231, 138, 107);
+    padding: 5px;
+    color: white;
+}
+
+section{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#article1{
+grid-column: 1/4;
+}
