@@ -112,6 +112,17 @@ nav a:hover{
     width: 100%;
 }
 
+.river-img{
+    border:10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.river-img:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
 footer .social img{
     padding-top:15px;
 }
@@ -133,6 +144,22 @@ footer .social img{
     padding-top:10px;
     width:80px;
 }
+
+.idaho-river{
+    grid-column:4/8;
+    grid-row:1/2;
+}
+
+.utah-river{
+    grid-column: 4/8;
+    grid-row: 3/4;
+}
+
+.arizona-river{
+    grid-column: 4/8;
+    grid-row: 5/7;
+}
+
 
 .logo{
     width:120px;
@@ -159,6 +186,8 @@ footer .social img{
     padding-bottom: 15px;
 }
 
+
+
 .rivers-card, .camping-card, .rapids-card{
     margin:200px 0;
 }
@@ -166,6 +195,12 @@ footer .social img{
 .rivers-card{
     grid-column:2/4;
     grid-row: 2/3;
+}
+
+.river-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+     1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .camping-card{
@@ -231,6 +266,15 @@ footer .social img{
     justify-self: center;
     align-self:center;
 }
+
+#pg2-msg{
+    background-color:#324a69;
+    color: antiquewhite;
+    line-height: 1.5em;
+    padding:35px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
