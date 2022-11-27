@@ -1,5 +1,16 @@
-/*a {
-    text-decoration: none;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Kalam&display=swap');
+
+body{
+    background-color:#FFE3BE;
+    font-family: karla;
+    margin:0;
+    padding: 0;
+}
+
+h1{
+    color: #606C38;
+    font-family: IBM Plex Mono;
+    margin: 20px 20px 20px 535px;
 }
 
 ul li {
@@ -14,6 +25,83 @@ ul {
     align-content: center;
 }
 
-.active{
-    background-color: pink;
-}*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+nav a {
+    color:#FEB95F;
+    border-radius: 5px;
+    font-family: IBM Plex Mono;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+/* nav a:hover{ */
+    /* background-color: antiquewhite; */
+/* } */
+
+header{
+    background-color:#606C38;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    opacity: .999;
+}
+
+
+footer{
+    background-color:#606C38;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer a{
+    color:#FEB95F;
+    border-radius: 5px;
+    font-family: IBM Plex Mono;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+
+.home-p{
+    font-family: Kalam;
+    background-color:#606C38;
+    color: antiquewhite;
+    margin: 0 auto;
+    line-height: 1.5em;
+    padding:35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 700px;
+}
+
+.salad-img{
+    background-color: #606C38;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 15px 15px 15px 500px;
+    padding: 15px;
+}
+
+.logo{
+    width: 150px;
+}
+
+
+#hero-img{
+    background-color: #606C38;
+    padding: 15px;
+    box-shadow: 5px 5px 10px #6f7364;
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 20px auto;
+    width:900px;
+}
+
+
+
